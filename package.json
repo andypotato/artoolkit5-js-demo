@@ -1,0 +1,30 @@
+{
+  "name": "artoolkit5-js-demo",
+  "version": "0.0.1",
+  "description": "Sample applications for artoolkit5-js",
+  "main": "index.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "dev": "webpack-dev-server --config ./webpack.config.js --mode development"
+  },
+  "author": "Andreas Schallwig",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "cross-env": "^7.0.2",
+    "css-loader": "^3.4.2",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1",
+    "webpack-livereload-plugin": "^2.2.0"
+  },
+  "dependencies": {
+    "artoolkit5-js": "0.0.4",
+    "reset-css": "^5.0.1",
+    "three": "^0.115.0"
+  }
+}
