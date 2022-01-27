@@ -25,6 +25,6 @@
   "dependencies": {
     "artoolkit5-js": "0.0.4",
     "reset-css": "^5.0.1",
-    "three": "^0.115.0"
+    "three": "^0.137.0"
   }
 }
